@@ -13,12 +13,9 @@
  */
 package com.facebook.presto.sidecar;
 
-import com.facebook.presto.spi.Plugin;
-
 /**
  * Todo: Remove this class when support for CoordinatorPlugin is added in presto-maven-plugin.
  */
 public class NoOpPlugin
-        implements Plugin
 {
 }
