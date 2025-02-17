@@ -20,7 +20,6 @@ import com.facebook.airlift.jaxrs.JaxrsModule;
 import com.facebook.airlift.json.JsonModule;
 import com.facebook.airlift.log.Logging;
 import com.facebook.airlift.node.testing.TestingNodeModule;
-import com.facebook.presto.common.MockHttpServletRequest;
 import com.facebook.presto.router.cluster.ClusterManager;
 import com.facebook.presto.router.cluster.RequestInfo;
 import com.facebook.presto.server.security.ServerSecurityModule;
