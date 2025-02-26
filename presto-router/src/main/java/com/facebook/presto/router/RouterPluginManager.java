@@ -14,8 +14,8 @@ package com.facebook.presto.router;
  */
 
 import com.facebook.airlift.log.Logger;
+import com.facebook.presto.common.plugin.PluginClassLoader;
 import com.facebook.presto.router.scheduler.SchedulerManager;
-import com.facebook.presto.server.PluginClassLoader;
 import com.facebook.presto.server.PluginManagerConfig;
 import com.facebook.presto.spi.Plugin;
 import com.facebook.presto.spi.RouterPlugin;
@@ -41,8 +41,8 @@ import java.util.ServiceLoader;
 import java.util.Set;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import static com.facebook.presto.server.PluginDiscovery.discoverPlugins;
-import static com.facebook.presto.server.PluginDiscovery.writePluginServices;
+import static com.facebook.presto.common.plugin.PluginDiscovery.discoverPlugins;
+import static com.facebook.presto.common.plugin.PluginDiscovery.writePluginServices;
 import static java.util.Objects.requireNonNull;
 
 @ThreadSafe
