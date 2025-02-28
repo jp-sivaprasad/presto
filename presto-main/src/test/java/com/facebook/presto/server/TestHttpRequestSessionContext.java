@@ -15,7 +15,6 @@ package com.facebook.presto.server;
 
 import com.facebook.airlift.json.JsonCodec;
 import com.facebook.presto.common.CatalogSchemaName;
-import com.facebook.presto.common.MockHttpServletRequest;
 import com.facebook.presto.common.QualifiedObjectName;
 import com.facebook.presto.spi.function.Parameter;
 import com.facebook.presto.spi.function.RoutineCharacteristics;

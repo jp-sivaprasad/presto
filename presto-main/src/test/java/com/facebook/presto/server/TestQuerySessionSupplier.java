@@ -14,7 +14,6 @@
 package com.facebook.presto.server;
 
 import com.facebook.presto.Session;
-import com.facebook.presto.common.MockHttpServletRequest;
 import com.facebook.presto.common.WarningHandlingLevel;
 import com.facebook.presto.common.type.TimeZoneNotSupportedException;
 import com.facebook.presto.execution.warnings.WarningCollectorFactory;
